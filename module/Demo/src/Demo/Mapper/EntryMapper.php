@@ -15,7 +15,7 @@ use Demo\Entity\Entry;
  * @author Steve
  *
  */
-class EntryMapper
+class EntryMapper implements EntryMapperInterface
 {
     /**
      * @var \Doctrine\Common\Persistence\ObjectManager
