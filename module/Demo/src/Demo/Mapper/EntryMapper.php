@@ -27,7 +27,8 @@ class EntryMapper implements EntryMapperInterface
      */
     protected $repository;
     
-	public function __construct(ObjectManager $documentManager,	ObjectRepository $repository)
+	public function __construct(ObjectManager $documentManager,
+				    ObjectRepository $repository)
 	{
 		$this->documentManager = $documentManager;
 		$this->repository = $repository;
